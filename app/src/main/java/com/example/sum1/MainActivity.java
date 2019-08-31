@@ -11,7 +11,6 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 ImageView flags;
-public int countr=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
