@@ -7,10 +7,24 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".easy"></activity>
-        <activity android:name=".Flags" />
+        <activity android:name=".AllFlags"></activity>
+        <activity android:name=".AllTime" />
+        <activity android:name=".HardFlags" />
+        <activity android:name=".HardTime" />
+        <activity android:name=".Medium" />
+        <activity android:name=".MediumTime" />
+        <activity android:name=".MediumFlags" />
+        <activity android:name=".MediumCommon" />
+        <activity android:name=".All" />
+        <activity android:name=".AllCommon" />
+        <activity android:name=".HardCommon" />
+        <activity android:name=".EasyTime" />
+        <activity android:name=".EasyFlags" />
+        <activity android:name=".EasyCommon" />
+        <activity android:name=".Easy" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

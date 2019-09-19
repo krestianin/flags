@@ -1,4 +1,29 @@
 <resources>
-    <string name="app_name">флаги</string>
+    <array name="flags">
+        <item>R.drawable.russia</item>
+        <item>R.drawable.katar</item>
+        <item>R.drawable.georgia</item>
+        <item>R.drawable.madagaskar</item>
+        <item>R.drawable.france</item>
+        <item>R.drawable.italy</item>
+
+    </array>
     <string name="title_activity_flags">flags</string>
+    <string name="app_name">флаги</string>
+    <string-array name="easy_countries">
+        <item>russia</item>
+        <item>katar</item>
+        <item>georgia</item>
+        <item>madagaskar</item>
+        <item>france</item>
+        <item>italy</item>
+    </string-array>
+    <string-array name="medium_countries">
+        <item>russia</item>
+        <item>katar</item>
+        <item>georgia</item>
+        <item>madagaskar</item>
+        <item>france</item>
+        <item>italy</item>
+    </string-array>
 </resources>
